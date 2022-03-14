@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {}
+    "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {
+    "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
+        "projectUniqueName": "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
         "projectName": "DBConsoleApplicationMCS",
-        "projectPath": "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
+        "projectPath": "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
         "packagesPath": "C:\\Users\\mwangamb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\obj\\",
+        "outputPath": "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mwangamb\\AppData\\Roaming\\NuGet\\NuGet.Config",

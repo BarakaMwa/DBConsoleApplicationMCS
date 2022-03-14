@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmxZDj+9NjnJcXqvGzqI5QIaZFQPOUALmTfATbxYk34n8bZFJzZYFlmsyb7a8svbnLT5K33dvajFTSKk1NMjRA==",
+  "dgSpecHash": "2PLhbNcRqvpUpYgSRJYIO6eHuYMXDjWuK7+KDcWrul91IsCFlGHjGsQlmC9b1+8OD6g3GtR2bD68Osf/WiW1Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
+  "projectFilePath": "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mwangamb\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\mwangamb\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
