@@ -12,7 +12,7 @@ namespace Controllers.ActorSearch
         {
             
             Console.WriteLine("To Search Actor");
-            Console.WriteLine("Enter First Name");
+            Console.WriteLine("Enter Part of First Or Last Name");
             string? searchName = Console.ReadLine();
 
             Console.WriteLine(" Getting Data");
