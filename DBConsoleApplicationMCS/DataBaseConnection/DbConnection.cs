@@ -7,6 +7,7 @@ namespace DataBaseConnection
     {
         public DbSet<ActorModel> Actor { get; set; }
         public DbSet<CountryModel> Country { get; set; }
+        public DbSet<CategoryModel> Category { get; set; }
         public DbSet<CityModel> City { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)

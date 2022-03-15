@@ -1,10 +1,11 @@
 ﻿using System;
+using Services.Category.Search;
 
 namespace Controllers.Category.Search
 {
     public class SearchCategoriesController
     {
-        public static void SearchCategories()
+        public static bool SearchCategories()
         {
             bool success = true;
 
@@ -14,14 +15,15 @@ namespace Controllers.Category.Search
 
             if (category != null || "".Equals(category))
             {
-                SearchCategoryService.SearchCategory(category);
+                success = SearchCategoryService.GetCategory(category);
             }
             else
             {
                 Console.WriteLine("Empty Category Or");
                 Console.WriteLine("Null Category");
+                success = false;
             }
-            
+            return success;
         }
     }
 }

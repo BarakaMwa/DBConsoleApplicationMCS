@@ -6,6 +6,9 @@ namespace Models
     [Table("category")]
     public class CategoryModel
     {
+        public CategoryModel()
+        {
+        }
         public CategoryModel(string? category)
         {
             Category = category;
