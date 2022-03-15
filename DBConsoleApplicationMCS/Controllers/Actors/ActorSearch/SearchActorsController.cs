@@ -1,8 +1,7 @@
 using System;
-using DataBaseConnection;
-using Services.ActorSearch;
+using Services.Actors.ActorSearch;
 
-namespace Controllers.ActorSearch
+namespace Controllers.Actors.ActorSearch
 {
     public class SearchActorsController
     {

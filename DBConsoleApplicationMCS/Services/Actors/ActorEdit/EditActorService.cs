@@ -2,7 +2,7 @@ using DataBaseConnection;
 using System;
 using System.Linq;
 
-namespace Services.ActorEdit
+namespace Services.Actors.ActorEdit
 {
     public class EditActorService
     {

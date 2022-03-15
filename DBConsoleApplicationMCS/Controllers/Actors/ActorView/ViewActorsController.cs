@@ -1,25 +1,26 @@
-using System;
-using System.Linq;
 using DBConsoleApplicationMCS;
-using DataBaseConnection;
+using System;
+using Services.Actors.ActorView;
 
-namespace Services.ActorView
+namespace Controllers.Actors.ActorView
 {
-    public class ViewActorsClass{
+    public class ViewActorsController
+    {
 
-       protected ViewActorsClass() { }
+        public ViewActorsController() { }
 
         public static void ViewActors()
         {
             try
             {
+                Console.WriteLine("Getting Data...");
                 int startRow = 0;
                 //SQL Query to execute
                 //selecting only first 10 rows for demo
                 /*string sql = "select * from sakila.actor limit " + startRow + ",10;";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
-                if (rdr.HasRows)
+                 if (rdr.HasRows)
                 {
                     while (rdr.Read())
                     {
@@ -35,12 +36,7 @@ namespace Services.ActorView
                 rdr.Close();*/
 
                 //read the data
-                var conn = new DbConnection();
-                var actor = conn.Actor.Where(a => a.Id < 20 ).ToList();
-                foreach (var actors in actor)
-                {
-                    Console.WriteLine(actors.Id +" -- "+ actors.FirstName +" -- " + actors.LastName);
-                }
+               ViewActorsClass.ViewActors();
             }
             catch (Exception err)
             {

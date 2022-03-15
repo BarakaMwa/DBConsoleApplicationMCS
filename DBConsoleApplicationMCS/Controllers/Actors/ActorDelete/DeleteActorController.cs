@@ -1,18 +1,19 @@
+using Controllers.Actors.ActorSearch;
+using Services.Actors.ActorDelete;
 using System;
-using Controllers.ActorSearch;
 using DBConsoleApplicationMCS;
-using Services.ActorEdit;
 
-namespace Controllers.ActorEdit
+namespace Controllers.Actors.ActorDelete
 {
-    public class EditActorController
+    public class DeleteActorController
     {
-        public EditActorController() { }
-        public static void EditActor()
+        protected DeleteActorController() { }
+
+        public static void DeleteActor()
         {
             bool status = true;
             SearchActorsController.SearchActors();
-            Console.WriteLine("Enter Actor Number You Want To Edit");
+            Console.WriteLine("Enter Actor Number You Want To Delete");
             int actorId = Convert.ToInt32(Console.ReadLine());
             
             Console.WriteLine("Are You Sure?Y/N");
@@ -21,8 +22,8 @@ namespace Controllers.ActorEdit
             switch (choice)
             {
                 case "y":
-                    Console.WriteLine(" Editing Data");
-                    status = EditActorService.GetActorEditor(actorId);
+                    Console.WriteLine(" Deleting Data");
+                    status = DeleteActorService.DeleteActorQuery(actorId);
                     break;
                 case "n":
                     Program.ReturnToMainMenu();
@@ -37,9 +38,11 @@ namespace Controllers.ActorEdit
             
             if (!status)
             {
-                Console.WriteLine("Can Not Edit Or Find Actor");
+                Console.WriteLine("Could Not Delete Actor");
             }
+
         }
-        
+
+
     }
 }

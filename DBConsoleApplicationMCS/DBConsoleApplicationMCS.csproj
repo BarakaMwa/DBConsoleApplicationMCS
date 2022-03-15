@@ -13,4 +13,9 @@
       <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers\Actors" />
+      <Folder Include="Services\Actors" />
+    </ItemGroup>
+
 </Project>

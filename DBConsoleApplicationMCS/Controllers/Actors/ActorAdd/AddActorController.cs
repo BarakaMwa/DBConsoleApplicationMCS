@@ -1,15 +1,15 @@
 using System;
 using DBConsoleApplicationMCS;
-using Services.ActorAdd;
+using Services.Actors.ActorAdd;
 
-namespace Controllers.ActorAdd
+namespace Controllers.Actors.ActorAdd
 {
     public class AddActorController
     {
         protected AddActorController() { }
         public static void AddActor()
         {
-            bool status 
+            bool status = true;
             Console.WriteLine("Add Actor Enter First Name");
             string? firstName = Console.ReadLine();
             Console.WriteLine("Add Actor Enter Last Name");

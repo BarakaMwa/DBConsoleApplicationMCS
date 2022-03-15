@@ -1,50 +1,45 @@
+/*using DataBaseConnection;
 using DBConsoleApplicationMCS;
 using System;
-using Services.ActorView;
 
-namespace Controllers.ActorView
+namespace Controllers.Actors.ActorViewTables
 {
-    public class ViewActorsController
+    public class ViewTablesController
     {
+        public ViewTablesController() { }
 
-        public ViewActorsController() { }
-
-        public static void ViewActors()
+        public static void ViewTables(DbConnection conn)
         {
             try
             {
                 Console.WriteLine("Getting Data...");
-                int startRow = 0;
                 //SQL Query to execute
                 //selecting only first 10 rows for demo
-                /*string sql = "select * from sakila.actor limit " + startRow + ",10;";
+                /*string sql = "SELECT table_name FROM sys.schema_table_statistics_with_buffer WHERE table_schema = 'sakila';";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataReader rdr = cmd.ExecuteReader();
-                 if (rdr.HasRows)
+                MySqlDataReader rdr = cmd.ExecuteReader();#1#
+                if (rdr.HasRows)
                 {
+                    //read the data
                     while (rdr.Read())
                     {
-                        Console.WriteLine(rdr[0] + " -- " + rdr[1] + " -- " + rdr[2]);
+                        Console.WriteLine(rdr[0]);
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Can Not Find Actors");
+                    Console.WriteLine("No tables found");
                 }
 
-
-                rdr.Close();*/
-
-                //read the data
-               ViewActorsClass.ViewActors();
+                rdr.Close();
             }
             catch (Exception err)
             {
                 Console.WriteLine(err.ToString());
             }
-            
+
             Program.ReturnToMainMenu();
         }
 
     }
-}
+}*/

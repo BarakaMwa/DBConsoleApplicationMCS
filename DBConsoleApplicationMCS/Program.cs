@@ -1,10 +1,15 @@
 ﻿using System;
-using Controllers.ActorAdd;
-using Controllers.ActorDelete;
-using Controllers.ActorEdit;
-using Controllers.ActorSearch;
-using Controllers.ActorView;
+using Controllers.Actors.ActorAdd;
+using Controllers.Actors.ActorDelete;
+using Controllers.Actors.ActorEdit;
+using Controllers.Actors.ActorSearch;
+using Controllers.Actors.ActorView;
 using DataBaseConnection;
+using Controllers.Category.Add;
+using Controllers.Category.Delete;
+using Controllers.Category.Edit;
+using Controllers.Category.Search;
+using Controllers.Category.View;
 
 namespace DBConsoleApplicationMCS
 {
@@ -66,20 +71,20 @@ namespace DBConsoleApplicationMCS
                     SearchActorsController.SearchActors();
                     ReturnToMainMenu();
                     break;
-                case 2:
-                    AddActorController.AddActor();
+                case 7:
+                    AddCategoryController.AddCategory();
                     break;
-                case 3:
-                    EditActorController.EditActor();
+                case 8:
+                    EditCategoryController.EditCategory();
                     break;
-                case 4:
-                    DeleteActorController.DeleteActor();
+                case 9:
+                    DeleteCategoryController.DeleteCategory();
                     break;
-                case 5:
-                    ViewActorsController.ViewActors();
+                case 10:
+                    ViewCategoriesController.ViewCategorys();
                     break;
-                case 6:
-                    SearchActorsController.SearchActors();
+                case 11:
+                    SearchCategoriesController.SearchCategories();
                     ReturnToMainMenu();
                     break;
                 case 0:

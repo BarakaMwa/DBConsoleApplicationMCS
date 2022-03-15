@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using DataBaseConnection;
 
-namespace Services.ActorSearch
+namespace Services.Actors.ActorSearch
 {
     public class SearchActorsService
     {

@@ -1,7 +1,7 @@
 using System;
 using DataBaseConnection;
 
-namespace Services.ActorDelete
+namespace Services.Actors.ActorDelete
 {
     public class DeleteActorService
     {

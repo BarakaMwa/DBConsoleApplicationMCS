@@ -3,7 +3,7 @@ using DataBaseConnection;
 using DBConsoleApplicationMCS;
 using Models;
 
-namespace Services.ActorAdd
+namespace Services.Actors.ActorAdd
 {
     public class AddActorService
     {
