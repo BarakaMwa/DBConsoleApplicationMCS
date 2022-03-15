@@ -36,6 +36,11 @@ namespace DBConsoleApplicationMCS
             Console.WriteLine("Enter 4 to Delete Actor");
             Console.WriteLine("Enter 5 to View Actors");
             Console.WriteLine("Enter 6 to Search Actor");
+            Console.WriteLine("Enter 7 to Add Category");
+            Console.WriteLine("Enter 8 to Edit Category");
+            Console.WriteLine("Enter 9 to Delete Category");
+            Console.WriteLine("Enter 10 to View Categorys");
+            Console.WriteLine("Enter 11 to Search Category");
             Console.WriteLine("Enter 0 to Exit Program");
 
             // Create a string variable and get user input from the keyboard and store it in the variable
@@ -45,6 +50,22 @@ namespace DBConsoleApplicationMCS
                 /*case 1:
                     ViewTablesController.ViewTables();
                     break;*/
+                case 2:
+                    AddActorController.AddActor();
+                    break;
+                case 3:
+                    EditActorController.EditActor();
+                    break;
+                case 4:
+                    DeleteActorController.DeleteActor();
+                    break;
+                case 5:
+                    ViewActorsController.ViewActors();
+                    break;
+                case 6:
+                    SearchActorsController.SearchActors();
+                    ReturnToMainMenu();
+                    break;
                 case 2:
                     AddActorController.AddActor();
                     break;

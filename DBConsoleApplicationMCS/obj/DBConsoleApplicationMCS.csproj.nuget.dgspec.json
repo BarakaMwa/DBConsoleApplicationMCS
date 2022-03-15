@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {}
+    "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {
+    "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
+        "projectUniqueName": "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
         "projectName": "DBConsoleApplicationMCS",
-        "projectPath": "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
+        "projectPath": "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS.csproj",
         "packagesPath": "C:\\Users\\mwangamb\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\obj\\",
+        "outputPath": "C:\\Users\\mwangamb\\RiderProjects\\DBConsoleApplicationMCS\\DBConsoleApplicationMCS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mwangamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
